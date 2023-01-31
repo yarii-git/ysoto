@@ -1,0 +1,218 @@
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*----------------Header---------------*/
+
+header {
+    /*border: 1px solid rgb(228, 27, 27);*/
+    height: 10%;
+}
+
+#imgPrin {
+    /*border: 1px solid black;*/
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 45%;
+    height: 10%;
+}
+
+#title1 {
+    color: #ac631f;
+    text-align: right;
+    font-size: 300%;
+    margin-right: 17%;
+    margin-bottom: 1%;
+}
+
+#description{
+    text-align: right;
+    padding-right: 17%;
+}
+
+#principal_menu {
+    background-color: #d1a041;
+    padding-left: 13%;
+    height: 50%;
+}
+
+li {
+    display: inline-block;
+    margin: 2%;
+}
+
+.link_menu {
+    color:rgb(15, 15, 15);
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.link_menu:hover {
+    color:#ac631f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*------------------Sections---------------*/
+#products{
+    margin:auto;
+    width: 80%;
+    height: 40%;
+}
+.product {
+    background-color: #ebe9da;
+    display: inline-block; 
+    border-radius: 4%;
+    width: 26%;
+    height: 20%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.product_link{
+    color: #ac631f;
+    text-decoration: none;
+}
+
+.product_link:hover{
+    color: #d1a041;
+}
+
+.image{
+    width: 70%;
+    border-style: solid;
+}
+
+/*------------Form, ho sento, però m'ha costat possar-ho bonic--------------*/
+#formSection{
+    background-color: #ebe9da;
+    border-radius: 8px;
+    margin:auto;
+    padding: 2%;
+    width: 76%;
+    height: 10%;
+    margin-bottom: 2%;
+    color: #ac631f;
+}
+#form_title{
+    background-color:  #d1a041;
+    border-radius: 8px;
+    display: inline-block; 
+    color: #000000;
+    margin-left: 6%;
+    padding-left: 3%;
+    width: 44%;
+}
+form{
+    display: inline-block; 
+    width: 50%;
+    margin-left: 7%;
+}
+#options{
+    width: 95%;
+}
+#message{
+    display: inline-block; 
+    width: 75%;
+}
+#text_form{
+    display: inline-block; 
+    width: 30%; 
+}
+#title_options{
+    margin: 2%;
+}
+#box_form{
+    display: inline-block; 
+    width: 60%;
+    
+}
+.in{
+    margin:2.5%;
+    border: 2px solid #d1a041;
+    border-radius: 6px;
+}
+#pais{
+    display: inline-block; 
+    width: 15%;
+}
+#select_pais{
+    border: 2px solid #d1a041;
+    padding: 2%;
+    border-radius: 6px;
+    color: #ac631f;
+}
+
+#box_message{
+    display: inline-block; 
+    width: 95%;
+    height: 10%;
+    margin-top: 2%;
+}
+#text_message{
+    width: 95%;
+    padding: 2%;
+    border: 2px solid #d1a041;
+    border-radius: 6px;
+    color: #ac631f;
+}
+
+#button_area{
+    /*display: inline-block; */
+    width: 15%;
+}
+#button{
+    background-color: #d1a041;
+    border: 1px solid #d1a041;
+    border-radius: 6px;
+    width: 90%;
+    padding: 2%;
+}
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+/*-----------------Form image----------------*/
+#box_img_form{
+    display: inline-block; 
+    margin-left: 8%;
+}
+#img_form{
+    width: 70%;
+}
+
+/*----------------Footer----------------*/
+footer {
+    background-color: #d1a041;
+    padding-top: 1%;
+}
+
+#copy {
+    display: inline-block; 
+    text-align: center;
+    width: 30%;
+    padding-left: 17%;
+}
+
+#social {
+    text-align: center;
+    display: inline-block; 
+    width: 40%;
+    height: 70%;
+    padding-bottom: 0.8%;
+}
+
+#social_text {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.social_img{
+    padding: 0.6%;
+}
+

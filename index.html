@@ -1,13 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yarii Soto</title>
-</head>
-<body>
-    <h1>Yarií Soto</h1>
-    <a href="/exercicis/ex1.html">Exercici 1</a>
-</body>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JugaNins</title>
+        <link href="css/jugaNins.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="imgPrin" src="imatges/bloques1.jpg" alt="Trigonos Family">
+            <h1 id="title1">JugaNins</h1>
+            <p id="description">Com major sigui la senzillesa de la joguina, major serà la creativitat i la imaginació.</p>
+            <!-- Menú-->
+            <nav id="principal_menu">
+                <li><a class="link_menu" href="#">Inici</a></li>
+                <li><a class="link_menu" href="#">Productes</a></li>
+                <li><a class="link_menu" href="#">Serveis</a></li>
+                <li><a class="link_menu" href="#">Contacte</a></li>
+            </nav>
+        </header>
+
+        <section id="products">
+            
+            <article class="product">
+                <a class="product_link" href="">
+                    <h1>Trigonos Family</h1>
+                    <img class="image" src="imatges/img1.jpg" alt="Trigonos Family">
+                    <p>
+                        Un joc de construcció gegant!
+                        Es tracta d'un conjunt de peces de fusta i teles que, una vegada juntes, ofereixen múltiples possibilitats.
+                    </p>
+                </a>
+            </article>
+            <article class="product">
+                <a class="product_link" href="">
+                    <h1>Trigonos Mini XL</h1>
+                    <img class="image" src="imatges/img2.jpg" alt="Trigonos Mini XL">
+                    <p>
+                        Mini Trigonos 5XL (amb 550 peces) és el format més gran de Trigonos Mini, el joc de construcció de fusta de faig.
+                    </p>
+                </a>
+            </article>
+           <article class="product">
+                <a class="product_link" href="">
+                    <h1>Lola Grapat</h1>
+                    <img class="image" src="imatges/img3.jpg" alt="Lola Grapat">
+                    <p>
+                        Lola de Grapat és un set de 72 peces soltes de fusta dividides en 6 formes diferents, cada una en 12 colors distints.
+                    </p>
+                </a>
+            </article>
+            <article class="product">
+                <a class="product_link" href="">
+                    <h1>Brots</h1>
+                    <img class="image" src="imatges/img4.jpg" alt="Brots Grapat">
+                    <p>
+                        Una peculiar comunitat de 18 éssers molt especials. En els 6 colors de l'arc de sant Martí i cada color degradat en tres tons.
+                    </p>
+                </a>
+            </article>
+            <article class="product">
+                <a class="product_link" href="">
+                    <h1>Wild</h1>
+                    <img class="image" src="imatges/img5.jpg" alt="Wild Grapat">
+                    <p>
+                        Wild és una col·lecció única que recull 12 criatures fantàstiques de la fauna. Cada una d'aquestes figuretes té la seva història.
+                    </p>
+                </a>
+            </article>
+        </section>
+
+        <!--------------Formulari------------->
+        
+
+        <section id="formSection">
+            <article id="form_title"><h2>Contacte</h2></article>
+            <form method="post" action="https://result.php">
+                <article id="options">
+                    <article id="message">
+                        <article id="text_form">
+                            <p class="title_options">Nom:</p>
+                            <p class="title_options">Cognom:</p>
+                            <p class="title_options">Assumpte:</p>
+                            <p></p>
+                        </article>
+                        <article id="box_form">
+                            <input class="in" type="text"/>
+                            <input class="in" type="text"/>
+                            <input class="in" type="text"/>
+                        </article>
+                    </article>
+                    <article id="pais">
+                        <p>Pais</p>
+                        <select id="select_pais">
+                            <option>Catalunya</option>
+                            <option>Espanya</option>
+                            <option>UK</option>
+                        </select>
+                    </article>
+                    <article id="box_message">
+                        <textarea id="text_message">Escriu el teu missatge, el respondrem el més aviat possible.</textarea>
+                    </article>
+                </article>
+                
+                <article id="button_area">
+                    <input id="button" type="submit" value = "enviar">
+                    <input type="hidden" name="ocult" value="S'envia el formulari de contacte." />
+                </article>
+            </form>
+            <article id="box_img_form">
+                <img id="img_form" src="imatges/tel1.png" alt="Teléfon de joguina">
+            </article>
+        </section>
+
+        <footer>
+            <article id="copy">
+                <p>&copy;2023 JugaNins</p>
+                <br>
+            </article>
+            
+            <article id="social">
+                <article id="social_text">
+                  <p>Xarxes socials</p>
+                </article>
+                <article>
+                  <a href="https://twitter.com/?lang=ES">
+                    <img class="social_img" src="imatges/icon_twitter.png" alt="Icono Twitter">
+                  </a>
+                  <a href="https://www.instagram.com/">
+                    <img class="social_img" src="imatges/icon_insta.png" alt="Icono Instagram">
+                  </a>
+                  <a href="https://www.facebook.com/">
+                    <img class="social_img" src="imatges/icon_face.png" alt="Icono Gmail">
+                  </a>
+              </article>
+        </footer>
+    </body>
 </html>
